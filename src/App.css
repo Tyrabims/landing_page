@@ -1,8 +1,9 @@
 .App {
   text-align: center;
+  color: #ffff;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-color: #181717;
 }
+nav ul li {
+  margin: 10px 20px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.ul-01 {
+ padding: 10px;
+}
+
+.nav-btn {
+  margin-left: 100px;
+  margin-right: 50px;
+  background-color: #181717;
+  color: #ffff;
+}
+
+
