@@ -1,16 +1,20 @@
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Main } from './components/Main';
+import { Routes, Route } from 'react-router-dom';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <>
        <Navbar />
-       <Main />
-    </div>
+       <Routes>
+          <Route path='/' element={ <Main /> } />
+       </Routes>       
+    </>
   );
+  
 }
 
 export default App;
